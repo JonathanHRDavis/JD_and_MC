@@ -1,3 +1,4 @@
+// Lab2 by Jonathan and Matthew
 #include "Matrix.h"
 
 #include <fstream>
