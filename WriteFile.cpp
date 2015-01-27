@@ -1,4 +1,4 @@
-// It is working!!
+// It is working
 
 #include "WriteFile.h"
 #include <sstream>
