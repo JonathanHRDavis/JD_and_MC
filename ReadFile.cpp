@@ -1,19 +1,17 @@
 #include "ReadFile.h"
 #include <iostream>
 #include <string>
-//constructor
+
 ReadFile::ReadFile(const char* file_name)
 {
    input_file.open(file_name);
    closed = false;
    _eof = false;
 }
-//destructor
-//rf deals with the struct i deleted but im not sure what i am suppose to delete no that it is a class
+
 ReadFile::~ReadFile()
 {
-   close(rf);
-   delete rf;
+   input_file.close;
 }
 
 bool ReadFile::eof()
