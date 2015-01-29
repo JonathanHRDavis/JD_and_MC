@@ -5,7 +5,7 @@
 
 #include <fstream>
 using namespace std;
-//switched it to a class
+
 class ReadFile
 {
 	private:
