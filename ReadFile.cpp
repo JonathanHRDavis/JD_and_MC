@@ -11,7 +11,7 @@ ReadFile::ReadFile(const char* file_name)
 
 ReadFile::~ReadFile()
 {
-   input_file.close;
+   input_file.close();
 }
 
 bool ReadFile::eof()
